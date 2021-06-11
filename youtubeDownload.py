@@ -3,7 +3,7 @@ from tkinter import Tk, filedialog
 
 ########################### INPUT ###################################
 
-link = input("\n\nEnter the youtube share link here(format: youtu.be/<ID#>): ")
+link = input("\n\nEnter the youtube share link here(format: youtube.com/watch?...): ")
 yt = YouTube(link)
 
 
