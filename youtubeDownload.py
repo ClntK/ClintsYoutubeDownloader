@@ -60,7 +60,7 @@ progs = yt.streams.filter(progressive=True)
 for prog in progs:
     print(prog)
 
-# show highest res prog stream
+# show fastest download & highest res prog stream
 lowRes = yt.streams.get_lowest_resolution()
 print("\n\nFastest Download Option is: ", lowRes, "\n")
 highRes = yt.streams.get_highest_resolution()
